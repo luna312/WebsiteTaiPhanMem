@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div#nen
+{
+	width:100%;
+	height:200px;
+}
+div#dau-right
+{
+	float:right;
+	display:flex;
+}
+div#cuoi
+{
+	text-align:center;
+	background:#0CF;
+	width:100%;
+	height:150px;
+	clear:both;
+	padding-top:20px;
+}
+
+nav{
+    background: #09F; 
+	margin: 0;
+}
+nav ul{
+    display: flex;
+}
+nav> ul li{
+    list-style: none; 
+    border-right: 1px solid #000;
+    border-left:1px solid #000;	
+}
+nav> ul li a{
+    display: block;
+    padding: 0 50px;
+    line-height: 50px;
+    color: #f1f2f3; 
+    text-decoration: none;
+}
+nav ul li:hover>a{
+    background: #0FC; 
+    color: #FFF; 
+}
+nav li ul{
+    display: none;
+    min-width: 350px;
+    position: absolute;
+}
+nav li>ul li{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background: #09F;
+    text-align: left; 
+}
+nav  li:hover > ul{
+    display:block;
+}
+div#search
+{
+	background-color:white;
+	padding-left:10px;
+	margin-top:5px;
+	margin-right:30px;
+	margin-left:500px;
+	height:40px;
+	width:250px;
+	border:0.5px solid #CED2DD;
+	border-radius:5px;
+}
+div#search input[type=text]
+{
+	float:left;
+	height:29px;
+	width:200px;
+	border:none;
+}
+div#search input[type=submit]
+{
+	float:right;
+	height:100%;
+	width:50px;
+	background:#F7F2E7;
+	border-top-right-radius:5px;
+	border-bottom-right-radius:5px;
+	border-left:0.5px solid #CED2DD;
+	font-size:14px;
+}
+div#dau search input[type=submit]:hover
+{
+	cursor:pointer;
+}
+div#dau marquee
+{
+	direction:ltr;
+	background:#CCC;
+}
+div#dau font
+{
+	font-weight:bold;
+	color:#06F;
+}
+div#giua
+{
+	margin:0px;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top:20px;
+	width:100%;
+}
+div#giua > div#left
+{
+	display:block;
+	float:left;
+	width:70%;
+	margin:0px;
+}
+div#giua > div#right
+{
+	float:right;
+	width:30%;
+	margin:0px;
+}
+div#baimoi> th#o1
+{
+	border: 5px;
+	border-color:#09F;
+	background:#09F
+}
+.hinhpm
+{
+	max-width:100%;
+	transition:all 0.5 ease;
+}
+.hinhpm:hover
+{
+	transform: scale(1.1);
+    transition: all ease-in-out 0.5s;
+}
+/*left*/
+
+.composs
+{
+	background:#FFF;
+	float:left;
+}
+.title-baimoi
+{
+    border-bottom: 2px solid #09F;
+	margin-right:70px;
+	margin-bottom:30px;
+}
+.title-baimoi p
+{
+	background:#09F;
+	color:#FFF;
+	border: 1px solid #09F;
+	margin-right:1050px;
+	height: 35px;
+	text-align:center;
+	line-height:35px;
+}
+.item
+{
+	float:left;
+	margin-bottom:100px;
+}
+.item-header 
+{
+	float:left;
+	width:300px; 
+	height:250px;
+}
+
+.item-content
+{
+	float:right;
+	height:250px;
+	width:1000px;
+}
+.item-content h2
+{
+	text-align:left;
+}
+.clock
+{
+	margin-bottom:30px;
+	color:#9E9E9E;
+
+}
+.clock-meovat
+{;
+	color:#9E9E9E;
+
+}
+.item-content h2 a
+{
+	text-decoration:none;
+	color:#000;
+	font-size:30px;
+}
+.item-content p
+{
+	text-align:justify;
+	font-size:20px;
+	margin-right:100px;
+}
+/*right*/
+div#right
+{
+	float:right;
+}
+.composs-r
+{
+	background:#FFF;
+	float:left;
+}
+.title-r
+{
+    border-bottom: 2px solid #09F;
+	margin-right:20px;
+	margin-bottom:30px;
+	width:500px;
+}
+.title-r p
+{
+	background:#09F;
+	color:#FFF;
+	border: 1px solid #09F;
+	margin-right:330px;
+	height: 35px;
+	text-align:center;
+	line-height:35px;
+}
+.item-r
+{
+	float:left;
+	margin-bottom:30px;
+	height:300px;
+}
+.item-header-r
+{
+	float:left;
+	width:200px;
+}
+
+.item-content-r
+{
+	float:right;
+	width:250px;
+}
+.item-content-r h2
+{
+	text-align:left;
+	margin-bottom:20px;
+}
+.item-content-r h2 a
+{
+	text-decoration:none;
+	color:#000;
+	font-size:18px;
+}
+.item-content-r p
+{
+
+	text-align:left;
+	font-size:16px;
+	text-align:justify;
+}
+/*right-meovat*/
+.item-meovat
+{
+	float:left;
+	margin-bottom:20px;
+	height:100px;
+}
+.item-meovat
+{
+	width:500px;
+	text-align:justify;
+}
+.item-meovat a
+{
+	font-weight:bold;
+}
+.item-meovat p
+/*trangpm*/
+
+.nd-phanmem
+{
+	width:70%;
+}
+.hinhdaidien 
+{
+	padding:30px;
+	margin-left:500px;
+}
+.chugiai
+{
+	margin-right:80px;
+}
+.chugiai>.tieumuc
+{
+	font-weight:bold;
+}
+.chugiai p
+{
+	text-align:justify;
+	padding:10px;
+}
+.download p
+{
+	text-align:justify;
+	padding:10px;
+	font-weight:bold;
+}

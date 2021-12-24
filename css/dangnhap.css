@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin::0px;
+	padding:0px;
+
+}
+
+body
+{
+	background-color:#CAFFFF;
+}
+.dangn
+{
+	width:100%;
+	max-width:400px;
+	margin:100px auto;
+	background-color:#ffffff;
+	padding:15px;
+	border:2px solid #cccccc;
+	border-radius:5px;
+}
+.header
+{
+	margin-left:40px;
+	margin-bottom:30px;
+}
+h1
+{
+	color:#009999;
+	font-size:30px;
+	text-align:center;
+	margin-bottom:30px;
+}
+.btn input
+{
+
+    width: 100%;
+    border: 1px solid #cccccc;
+    outline: none;
+	border-radius: 3px;
+	
+	
+}
+.btn input[type=text]
+{
+	padding-left:40px;
+}
+.btn input[type=password]
+{
+	padding-left:40px;
+}
+.dn input
+{
+	margin-top:15px;
+	padding: 7.5px 15px;
+    border-radius: 3px;
+    background-color:#09F;
+    color: #ffffff;
+    border: none;
+    outline: none;
+	margin-bottom:10px;
+	
+}
+.input-box
+{
+	margin-bottom: 10px;
+}
+.input-box input
+{
+	padding: 7.5px 15px;
+    width: 100%;
+    border: 1px solid #cccccc;
+    outline: none;
+}
+.dn input:hover
+{
+	background-color:#008080;
+	
+}
+.dangnhap
+{
+	color:#09F;
+	float:left;
+	font-weight:bold;
+	padding-bottom:7px;
+}
+
+.login a
+{
+	text-decoration:none;
+	color: #09F;
+}
+
+.login a:hover
+{
+	text-decoration:underline;
+}
+p
+{
+	color: #09F;
+}
